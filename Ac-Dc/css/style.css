@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'ac/dc';
+    src: url(../font/aebsquealer.ttf);
+}
+
+*{
+    background-image: url(../img/band-music-ac-dc-wallpaper-preview.jpg);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'ac/dc';
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.hamburguer{
+    display: none;
+}
+
+.
