@@ -14,7 +14,7 @@
 
 body{
     background-image: url(../img/band-music-ac-dc-wallpaper-preview.jpg);
-    background-size: cover;
+    background-size:100%;
 }
 
 header{
@@ -56,6 +56,18 @@ header{
     background: white;
 }
 
+main{
+    color: white;
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+}
+
+.history, p{
+    padding: 30px;
+}
 @media only screen and (max-width: 1320px) {
     header{
         padding: 0 50px;
